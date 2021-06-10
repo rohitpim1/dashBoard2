@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color:  hsl(230, 17%, 14%);
+}
+p{
+    color:hsl(228, 34%, 66%);
+}
+h1{
+    color:hsl(0, 0%, 100%);
+}
+h4{
+    color:hsl(228, 34%, 66%);
+}
+h6{
+    color:hsl(163, 72%, 41%);
+}
+
+ .card1{
+    width: 253px;
+    height: 212px;
+    border-top: 5px solid hsl(163, 72%, 41%);
+    background-color: hsl(228, 28%, 20%);
+}
+
+.card2{
+    width: 253px;
+    height: 212px;
+    border-top: 5px solid hsl(163, 72%, 41%);
+    background-color: hsl(228, 28%, 20%)
+}
+.card3{
+    width: 253px;
+    height: 212px;
+    border-top: 5px solid hsl(356, 69%, 56%);
+    background-color:hsl(228, 28%, 20%);
+}
+.card4{
+    width: 253px;
+    height: 212px;
+    border-top: 5px solid hsl(356, 69%, 56%);
+     background-color: hsl(228, 28%, 20%);
+}
+
+.card4 h6{
+    color:hsl(356, 69%, 56%);
+}
+
+/*overview*/
+
+.overview .card1{
+    position: relative;
+    width: 247px;
+    height: 120px;
+    background-color:hsl(228, 28%, 20%);
+    border: none;
+
+}
+
+.card1 .con1{
+    position: absolute;
+    top:15px;
+    left:15px;
+    
+}
+
+.card1 .con2{
+    position: absolute;
+    top:15px;
+    right:15px;
+}
+
+.card1 .con3{
+    position: absolute;
+    bottom:15px;
+    left:15px;
+}
+
+.card1 .con4{
+    position: absolute;
+    bottom:15px;
+    right:15px;
+}
